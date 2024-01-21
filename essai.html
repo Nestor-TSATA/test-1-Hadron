@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Style du conteneur avec la bordure extérieure confondue */
+    .container {
+      border: 1px solid #000;
+      padding: 10px; /* Ajoutez un espacement intérieur au besoin */
+      width: 300px; /* Ajustez la largeur totale du conteneur selon vos besoins */
+    }
+
+    /* Style des tableaux à l'intérieur avec la bordure confondue */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border-top: 1px solid #000; /* Bordure supérieure du tableau */
+      border-bottom: 1px solid #000; /* Bordure inférieure du tableau */
+    }
+
+    /* Style des cellules d'en-tête avec bordure gauche et droite éliminées */
+    th {
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid #000; /* Vous pouvez ajouter une bordure inférieure aux en-têtes si nécessaire */
+      padding: 8px;
+      text-align: left;
+    }
+
+    /* Style des cellules de données avec bordure gauche et droite éliminées */
+    td {
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid #000; /* Vous pouvez ajouter une bordure inférieure aux cellules de données si nécessaire */
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Conteneur avec les deux tableaux -->
+  <div class="container">
+
+    <!-- Tableau 1 -->
+    <table>
+      <thead>
+        <tr>
+          <th>En-tête 1</th>
+          <th>En-tête 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Donnée 1</td>
+          <td>Donnée 2</td>
+        </tr>
+        <tr>
+          <td>Donnée 3</td>
+          <td>Donnée 4</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Tableau 2 -->
+    <table>
+      <thead>
+        <tr>
+          <th>En-tête A</th>
+          <th>En-tête B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Donnée A1</td>
+          <td>Donnée B2</td>
+        </tr>
+        <tr>
+          <td>Donnée A3</td>
+          <td>Donnée B4</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+</html>
